@@ -1,12 +1,29 @@
 body{
     
 
-    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    /* background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); */
 
-    
-
+    background-color: #a6ffcb;
+    animation: colors 5s infinite;
 }
 
+@keyframes colors {
+    0%{
+        background-color: #a6ffcb;
+    }
+    25%{
+        background-color:bisque;
+    }
+    50%{
+        background-color:aqua;
+    }
+    75%{
+        background-color:chartreuse;
+    }
+    100%{
+        background-color:hotpink;
+    }
+}
 
 .container{
     text-align: center;
